@@ -1,4 +1,4 @@
-package grytsenko.contacts.util;
+package contacts.util;
 
 /**
  * Utilities for strings.

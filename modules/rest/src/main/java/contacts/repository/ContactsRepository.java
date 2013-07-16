@@ -1,8 +1,9 @@
-package grytsenko.contacts.repository;
+package contacts.repository;
 
-import grytsenko.contacts.model.Contact;
 
 import java.util.List;
+
+import contacts.model.Contact;
 
 /**
  * Repository of contacts.

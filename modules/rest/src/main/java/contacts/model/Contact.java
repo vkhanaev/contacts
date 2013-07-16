@@ -1,4 +1,4 @@
-package grytsenko.contacts.model;
+package contacts.model;
 
 import java.io.Serializable;
 

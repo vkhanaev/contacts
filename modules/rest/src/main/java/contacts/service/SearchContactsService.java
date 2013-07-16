@@ -1,13 +1,14 @@
-package grytsenko.contacts.service;
+package contacts.service;
 
-import grytsenko.contacts.model.Contact;
-import grytsenko.contacts.repository.ContactsRepository;
-import grytsenko.contacts.util.StringUtils;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import contacts.model.Contact;
+import contacts.repository.ContactsRepository;
+import contacts.util.StringUtils;
 
 /**
  * Searches a contacts.

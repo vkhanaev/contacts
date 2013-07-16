@@ -1,7 +1,5 @@
-package grytsenko.contacts.rest;
+package contacts.rest;
 
-import grytsenko.contacts.model.Contact;
-import grytsenko.contacts.service.SearchContactsService;
 
 import java.security.Principal;
 import java.util.ArrayList;
@@ -19,6 +17,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
+
+import contacts.model.Contact;
+import contacts.service.SearchContactsService;
 
 @Controller
 @RequestMapping("/search.json")

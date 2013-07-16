@@ -1,8 +1,7 @@
-package grytsenko.contacts.repository;
+package contacts.repository;
 
-import static grytsenko.contacts.util.StringUtils.digitsOnly;
+import static contacts.util.StringUtils.digitsOnly;
 import static java.text.MessageFormat.format;
-import grytsenko.contacts.model.Contact;
 
 import java.util.List;
 
@@ -18,6 +17,8 @@ import org.springframework.ldap.core.AttributesMapper;
 import org.springframework.ldap.core.LdapTemplate;
 import org.springframework.ldap.core.support.LdapContextSource;
 import org.springframework.stereotype.Repository;
+
+import contacts.model.Contact;
 
 /**
  * Repository of contacts in directory service.
