@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="appName">Corporate Contacts</string>
+    <string name="accountName">Corporate Contacts</string>
+    <string name="accountType">corporate.contacts</string>
+    <string name="searchUrl">https://office-tools.donetsk.exadel.com/contacts/search.json</string>
+    <string name="labelName">Name</string>
+    <string name="labelPassword">Password</string>
+    <string name="labelAdd">Add</string>
+    
+</resources>
