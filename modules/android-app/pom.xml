@@ -1,12 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
     <modelVersion>4.0.0</modelVersion>
+
     <groupId>contacts</groupId>
     <artifactId>android-app</artifactId>
     <version>0.1.0-SNAPSHOT</version>
     <packaging>apk</packaging>
-    <name>android-app</name>
+
+    <name>contacts-for-android</name>
+    <description>Android application for managing corporate contacts.</description>
+    <url>https://github.com/grytsenko/contacts</url>
+    <inceptionYear>2013</inceptionYear>
+
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <scm>
+        <url>https://github.com/grytsenko/contacts</url>
+        <connection>scm:git:https://github.com/grytsenko/contacts.git</connection>
+        <developerConnection>scm:git:https://github.com/grytsenko/contacts.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
+
+    <issueManagement>
+        <system>GitHub Issues</system>
+        <url>http://github.com/grytsenko/contacts/issues</url>
+    </issueManagement>
+
+    <developers>
+        <developer>
+            <id>grytsenko</id>
+            <name>Anthony Grytsenko</name>
+            <email>anthony.grytsenko@gmail.com</email>
+            <roles>
+                <role>developer</role>
+            </roles>
+        </developer>
+        <developer>
+            <id>khanaev</id>
+            <name>Vladimir Khanaev</name>
+            <roles>
+                <role>developer</role>
+            </roles>
+        </developer>
+    </developers>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
